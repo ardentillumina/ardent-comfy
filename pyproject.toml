@@ -1,0 +1,14 @@
+[project]
+name = "ardent"
+description = "Created by Ardent Illumina"
+version = "0.0.1"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/ardentillumina/ComfyUI-Ardent"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ardentillumina"
+DisplayName = "Ardent Illumina"
+# Icon = ""
