@@ -4,7 +4,7 @@ My first ComfyUI nodes repo, I think it will help me a lot, if you like it, plea
 
 ## Nodes
 
-### Format Filename Prefix By Date
+### Filename Prefix By Date
 
 - This node generates a `filename_prefix` by current date and time, with an optional seed
 - The output **STRING** will be in the format `YYYYMMDD/YYYYMMDD_HHMM` or `YYYYMMDD/YYYYMMDD_HHMM_{seed}`
