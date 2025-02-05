@@ -6,7 +6,10 @@ My first ComfyUI nodes repo, I think it helps me a lot, if you like it, please g
 
 ### Filename Prefix By Date
 
-- This node generates a `filename_prefix` by current date and time
+This node generates a `filename_prefix` by current date and time
+
+![CleanShot 2025-02-05 at 16 05 52](https://github.com/user-attachments/assets/445fc882-801f-436f-b298-50c625a32d91)
+
 - Inputs:
   - `seed`: optional
   - `suffix`: optional
