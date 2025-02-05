@@ -1,11 +1,11 @@
-from .nodes.filename_prefix_formatter import FilenamePrefixFormatter
+from .nodes.format_filename_prefix_by_date import FormatFilenamePrefixByDate
 
 NODE_CLASS_MAPPINGS = {
-    "FilenamePrefixFormatter": FilenamePrefixFormatter,
+    "FormatFilenamePrefixByDate": FormatFilenamePrefixByDate,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "FilenamePrefixFormatter": "Filename Prefix Formatter",
+    "FormatFilenamePrefixByDate": "Filename Prefix By Date",
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']

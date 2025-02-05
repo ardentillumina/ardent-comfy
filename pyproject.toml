@@ -1,5 +1,5 @@
 [project]
-name = "ardent"
+name = "ardent-comfyui"
 description = "Created by Ardent Illumina"
 version = "0.0.1"
 license = { file = "LICENSE" }
