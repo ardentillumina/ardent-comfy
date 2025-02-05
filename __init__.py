@@ -1,4 +1,4 @@
-from .nodes.format_filename_prefix_by_date import FormatFilenamePrefixByDate
+from .py.format_filename_prefix_by_date import FormatFilenamePrefixByDate
 
 NODE_CLASS_MAPPINGS = {
     "FormatFilenamePrefixByDate": FormatFilenamePrefixByDate,

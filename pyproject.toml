@@ -1,14 +1,12 @@
 [project]
 name = "ardent-comfyui"
-description = "Assistant nodes for ComfyUI by Ardent Illumina. LIST: FilenamePrefix By Date, ..."
-version = "0.1.8"
+description = "FilenamePrefix By Date, ..."
+version = "0.1.9"
 license = { file = "LICENSE" }
 
 [project.urls]
 Repository = "https://github.com/ardentillumina/ardent-comfy"
-#  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
 PublisherId = "ardentillumina"
 DisplayName = "Ardent Nodes"
-# Icon = ""
