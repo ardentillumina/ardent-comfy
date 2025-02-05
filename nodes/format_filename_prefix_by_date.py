@@ -16,24 +16,30 @@ class FormatFilenamePrefixByDate:
                     "default": None,
                     "forceInput": True,
                 }),
+                "suffix": ("STRING", {
+                    "default": "",
+                }),
             },
         }
 
-    def func(self, seed=None):
+    def func(self, seed=None, suffix=""):
         path_delimiter = "\\" if sys.platform.startswith("win") else "/"
 
         try:
             current_time = datetime.datetime.now()
             formatted_date = current_time.strftime("%Y%m%d")
-            formatted_time = current_time.strftime("%Y%m%d_%H%M")
+            formatted_date_and_time = current_time.strftime("%Y%m%d_%H%M")
 
             results: list[str] = []
             results.append(formatted_date)
             results.append(path_delimiter)
-            results.append(f"{formatted_date}_{formatted_time}")
+            results.append(formatted_date_and_time)
 
             if seed is not None:
                 results.append(f"_{seed}")
+
+            if suffix:
+                results.append(f"_{suffix}")
 
             return ("".join(results),)
         except Exception as e:
