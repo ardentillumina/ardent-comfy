@@ -22,6 +22,8 @@ class FormatFilenamePrefixByDate:
             },
         }
 
+    RETURN_NAMES = ("filename_prefix",)
+
     def func(self, seed=None, suffix=""):
         path_delimiter = "\\" if sys.platform.startswith("win") else "/"
 
