@@ -5,7 +5,7 @@ version = "0.1.2"
 license = { file = "LICENSE" }
 
 [project.urls]
-Repository = "https://github.com/ardentillumina/ComfyUI-Ardent"
+Repository = "https://github.com/ardentillumina/ardent-comfy"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
