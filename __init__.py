@@ -5,7 +5,7 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "FormatFilenamePrefixByDate": "Filename Prefix By Date",
+    "FormatFilenamePrefixByDate": "FilenamePrefix By Date",
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
