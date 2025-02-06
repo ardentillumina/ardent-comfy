@@ -8,14 +8,13 @@ My first ComfyUI nodes repo, I think it helps me a lot, if you like it, please g
 
 This node displays a text in a widget with a `text` input.
 
-![CleanShot 2025-02-06 at 13 47 43](https://github.com/user-attachments/assets/3ea06ff8-03a5-44ea-b239-2f9c189ceaa2)
-
+![CleanShot 2025-02-06 at 23 01 46](https://github.com/user-attachments/assets/a89b5a0b-0e40-4a1e-a1cf-fd0a7a2ecf01)
 
 ### 2. `FilenamePrefix By Date`
 
 This node generates a `filename_prefix` by current date and time
 
-![CleanShot 2025-02-06 at 13 50 29](https://github.com/user-attachments/assets/b950dee3-cd0e-43c1-b804-45428bb8107f)
+![CleanShot 2025-02-06 at 23 03 42](https://github.com/user-attachments/assets/6c1bdc36-d576-4f35-b265-6ef07536ea0f)
 
 - Inputs:
   - `seed`: optional
