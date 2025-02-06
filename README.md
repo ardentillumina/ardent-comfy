@@ -4,7 +4,11 @@ My first ComfyUI nodes repo, I think it helps me a lot, if you like it, please g
 
 ## Nodes
 
-### FilenamePrefix By Date
+### 1. `Show Text`
+
+This node displays a text in a widget with a `text` input.
+
+### 2. `FilenamePrefix By Date`
 
 This node generates a `filename_prefix` by current date and time
 

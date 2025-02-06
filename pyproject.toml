@@ -1,7 +1,7 @@
 [project]
-name = "ardent-comfyui"
-description = "FilenamePrefix By Date, ..."
-version = "0.1.9"
+name = "ardent-nodes-comfyui"
+description = "Show Text, Filename Prefix By Date, ..."
+version = "0.2.0"
 license = { file = "LICENSE" }
 
 [project.urls]
@@ -9,4 +9,4 @@ Repository = "https://github.com/ardentillumina/ardent-comfy"
 
 [tool.comfy]
 PublisherId = "ardentillumina"
-DisplayName = "Ardent Nodes"
+DisplayName = "Ardent-Nodes-ComfyUI"

@@ -28,14 +28,16 @@ class FormatFilenamePrefixByDate(BaseNodeStringAssistant):
         formatted_date = current_time.strftime("%Y%m%d")
         formatted_date_and_time = current_time.strftime("%Y%m%d_%H%M")
 
-        results: list[str] = []
-        results.append(os.path.join(
-            formatted_date, formatted_date_and_time))
+        fragments: list[str] = []
+        fragments.append(os.path.join(
+            formatted_date,
+            formatted_date_and_time,
+        ))
 
         if seed is not None:
-            results.append(f"_{seed}")
+            fragments.append(f"_{seed}")
 
-        if suffix:
-            results.append(f"_{suffix}")
+        if suffix != "":
+            fragments.append(f"_{suffix}")
 
-        return ("".join(results),)
+        return ("".join(fragments),)
