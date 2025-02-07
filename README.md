@@ -26,3 +26,8 @@ This node generates a `filename_prefix` by current date and time
     - `YYYYMMDD/YYYYMMDD_HHMM_{seed}`
     - `YYYYMMDD/YYYYMMDD_HHMM_{seed}_{suffix}`
 - The path delimiter will be automatically determined based on the operating system, using either `/` or `\`
+
+### 3. ``
+
+![CleanShot 2025-02-07 at 14 09 44](https://github.com/user-attachments/assets/deb5eb4e-1b79-4eea-9cb5-5004a604b60e)
+
