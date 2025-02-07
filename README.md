@@ -19,12 +19,17 @@ This node generates a `filename_prefix` by current date and time
 - Inputs:
   - `seed`: optional
   - `suffix`: optional
+  - `enable_date_folder`: `BOOLEAN`
 - Outputs:
-  - `STRING`:
+  - `filename_prefix`: `STRING`
     - `YYYYMMDD/YYYYMMDD_HHMM`
     - `YYYYMMDD/YYYYMMDD_HHMM_{suffix}`
     - `YYYYMMDD/YYYYMMDD_HHMM_{seed}`
     - `YYYYMMDD/YYYYMMDD_HHMM_{seed}_{suffix}`
+    - `YYYYMMDD_HHMM`
+    - `YYYYMMDD_HHMM_{suffix}`
+    - `YYYYMMDD_HHMM_{seed}`
+    - `YYYYMMDD_HHMM_{seed}_{suffix}`
 - The path delimiter will be automatically determined based on the operating system, using either `/` or `\`
 
 ### 3. `Positive Only (CLIP Encode Prompt)`

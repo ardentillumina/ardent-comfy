@@ -1,7 +1,7 @@
 [project]
 name = "ardent-nodes-comfyui"
 description = "Show Text; Filename Prefix By Date; Positive Only (CLIP Encode Prompt); ..."
-version = "0.3.2"
+version = "0.3.3"
 license = { file = "LICENSE" }
 
 [project.urls]
